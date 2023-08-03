@@ -37,35 +37,44 @@
     width: 100px;
 }
 
-.watch{
+
+.watch, .shoe, .bag{
     background-image: linear-gradient(to bottom,  #fcba7d 0%,  #ec9248 100%);
     color: #fceae8;
     border: none;
     border-radius: 8px;
     padding: 9px 10px;
-    cursor: pointer;
+}
+
+.watch{
+    background-image: linear-gradient(to bottom,  #fcba7d 0%,  #ec9248 100%);
+    color: #fceae8;
 }
 
 .bag{
     background-image: linear-gradient(to bottom,  #f359a6 0%,  #f82d7b 100%);
     color: #fceae8;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 10px;
 }
 
 .shoe{
     background-image: linear-gradient(to bottom,  #7085f8 0%,  #572bf7 100%);
     color: #fceae8;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 10px;
 }
 
 .contact-background{
     background-color: #fceae8;
     border-radius: 8px;
     padding: 9px 25px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
 
 footer{
