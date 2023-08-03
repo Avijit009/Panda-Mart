@@ -28,20 +28,12 @@
 
 /* Categories */
 
-.category{
-    margin: 100px;
-    padding: 20px 20px;
-}
-
 .category img{
     width: 100px;
 }
 
 
 .watch, .shoe, .bag{
-    background-image: linear-gradient(to bottom,  #fcba7d 0%,  #ec9248 100%);
-    color: #fceae8;
-    border: none;
     border-radius: 8px;
     padding: 9px 10px;
 }
